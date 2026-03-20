@@ -10,12 +10,6 @@ Imagine you have an old **Legacy Billing System** that only accepts data in **XM
 
 --- 
 
-I completely understand. Structural patterns are all about the "plumbing" of your code—how different pieces connect. If the connections aren't clear, the pattern doesn't make sense.
-
-Following the **Core Problem/Red Flags/Code** format from your Singleton reference, here are the examples for all four.
-
----
-
 ### How to Address It:
 Create a **Wrapper class** (The Adapter). It "talks" to the old sensor, gets the XML, converts it to JSON, and hands it to the display.
 
